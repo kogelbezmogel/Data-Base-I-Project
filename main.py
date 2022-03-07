@@ -11,7 +11,9 @@ if __name__ == '__main__':
 
     #connecting to database
     try:
-        conn = db.connect(user="postgres", password="maciek123", database="postgres", host="localhost", port="5432")
+        #conn = db.connect(user="postgres", password="maciek123", database="postgres", host="localhost", port="5432")
+        url = "postgres://bdjagnhf:eCDH9fC5-6BQggbk4ZAPg0meJ00T-zrM@tyke.db.elephantsql.com/bdjagnhf"
+        conn = db.connect(url)
     except:
         print("Nie poloczono")
 

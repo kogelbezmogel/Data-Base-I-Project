@@ -25,11 +25,6 @@ CREATE VIEW oblozenie_seansow (tytul, numer_seansu, data_seansu, numer_sali, bil
         se.id_seans;
 
 
-
-CREATE VIEW repertuar
-
-
-
 CREATE VIEW oblozenie_kina_w_tygodniu (nazwa_kina, dzien, ilosc_klientow) AS
     SELECT 
         nazwa_kina,
