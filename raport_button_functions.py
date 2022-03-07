@@ -77,7 +77,7 @@ def clients_for_day_button_click(conn) -> None:
 
 
     
-def tickets_for_show_button_click(conn) -> None: #mozna dodac godziny seansow zamiast numerow
+def tickets_for_show_button_click(conn) -> None: 
     cursor = conn.cursor()
 
     raport_statement = "SELECT * FROM oblozenie_seansow;"
